@@ -8,9 +8,28 @@ h3{
   text-align: center;
   background-color: rgba(233, 252, 28, 0.4);
 }
-.players{
+.p1 .p2{
   display: flex;
-  margin: (1px solid black);
   text-align: center;
-  padding-top: 10%;
+  margin-bottom: 50px;
+}
+.p1{
+  /* float: left; */
+  /* margin-right: 7vw; */
+  background-color: rgba(233, 252, 28, 0.4);
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.p2{
+  /* margin-left: 7vw; */
+  background-color: rgba(233, 252, 28, 0.4);
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.players{
+  text-align: center;
+  margin: 20%;
+}
+.submit{
+  color: red;
 }
