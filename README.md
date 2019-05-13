@@ -60,7 +60,7 @@ No installation is needed. you get it straight from the internet.
 contact me @ emmasharon19@gmail.com
 
 ### license
-**[MIT](https://github.com/Emmasharon/Pig-dice/blob/master/LICENSE)**
+**[MIT](https://opensource.org/licenses/MIT)**
 
 
 
