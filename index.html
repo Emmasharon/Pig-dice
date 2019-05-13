@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="css/animate(1).css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/animate(1).css"> -->
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <title></title>
   </head>
   <body>
@@ -35,26 +35,27 @@
 
       <div class="row">
 
-        <div class="col-md-4" id="green">
-          <h3>Player one:</h3>
-            <p id="first"></p>
-            <p>rollDice:</p>
-            <p id="play1"></p>
-            <p>totalSum1:</p>
-            <p id="totalSum1"></p>
-            <p>currentScore1:</p>
-            <p id="currentScore1"></p>
-          </div>
+      <div class="col-md-4" id="green">
+        <h3 id="moja">Player one:</h3>
+          <p id="first"></p>
+          <!-- <p>rollDice:</p> -->
+          <button class="roll1 btn">rol dice</button>
+          <button class="hold1 btn">hold</button>
+          <p id="play1"></p>
+          <p id='totalSum1'></p>
+          <p id="totalSum1"></p>
+          <p id="currentScore1"></p>
+        </div>
 
     <div class="col-md-4" id="blue">
-      <h3>Player two:</h3>
+      <h3 id="mbili">Player two:</h3>
        <p id="second"></p>
-       <p>rollDice:</p>
+       <!-- <p>rollDice:</p> -->
+       <button class="roll2 btn">Roll dice</button>
+       <button class="hold2 btn">hold</button>
        <p id="play2"></p>
-          <p>totalSum2:</p>
        <p id="totalSum2"></p>
-          <p>currentScore2:</p>
-       <p id="currentScore2"></p>
+       <p id='currentScore2'></p>
     </div>
 
    <div class="winner">
@@ -65,9 +66,10 @@
    </div>
 
    </div>
-   <p class="copyright">CHEZA-PIG-DICE Copyright©2019</p>
+   <p class="copyright">CHEZA-PIG-DICECopyright©2019</p>
 
  </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 
     </script>
