@@ -24,24 +24,23 @@
            <input required id="p2" type="text" name="name" value="" placeholder="Write your name">
          </div>
 
-         <div class="submit">
-           <button id="play" type="submit" class="btn btn-outline-success" name="play">PLAY</button>
-         </div>
        </div>
      </div>
 
      <div class="dice">
-       <button id="reset" type="button" class="btn btn-outline-info" onclick="reload()">restart</button>
-
       <div class="row">
-
       <div class="col-md-4" id="green">
         <h3 id="moja">Player one:</h3>
           <p id="first"></p>
           <!-- <p>rollDice:</p> -->
-          <button class="roll1 btn">rol dice</button>
-          <button class="hold1 btn">hold</button>
-          <p id="play1"></p>
+          <div class="submit">
+            <button id="play1" type="submit" class="btn btn-outline-success" name="play">PLAY</button>
+          </div>
+          <div class="hide1">
+            <button class="roll1 btn">roll dice</button>
+            <button class="hold1 btn">hold</button>
+          </div>
+          <p id="play1"><span></span></p>
           <p id='totalSum1'></p>
           <p id="totalSum1"></p>
           <p id="currentScore1"></p>
@@ -51,12 +50,18 @@
       <h3 id="mbili">Player two:</h3>
        <p id="second"></p>
        <!-- <p>rollDice:</p> -->
-       <button class="roll2 btn">Roll dice</button>
-       <button class="hold2 btn">hold</button>
+       <div class="submit">
+         <button id="play2" type="submit" class="btn btn-outline-success" name="play">PLAY</button>
+       </div>
+       <div class="hide2">
+         <button class="roll2 btn">roll dice</button>
+         <button class="hold2 btn">hold</button>
+       </div>
        <p id="play2"></p>
        <p id="totalSum2"></p>
        <p id='currentScore2'></p>
     </div>
+
 
    <div class="winner">
      <h1>YEEY!</h1>
@@ -64,8 +69,9 @@
      <p id="winn"></p>
      <p>WINNER!!</p>
    </div>
-
    </div>
+   <button id="reset" type="button" class="btn btn-outline-info" onclick="reload()">restart</button>
+
    <p class="copyright">CHEZA-PIG-DICECopyright©2019</p>
 
  </div>
