@@ -7,7 +7,7 @@
 This is a dice game played by two members who get to earn points by adding random numbers they throw. One clears the initial collected amount.The other player then takes the die over.
 
 ## Project live site
-https://emmasharon.github.io/Pig-dice
+https://emmasharon.github.io/Pig-dice/
 
 ## Behavior Driven Development(BDD)
 
