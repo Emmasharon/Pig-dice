@@ -16,11 +16,26 @@ h3{
   border: 1px solid white;
 }
 .hide1{
+  text-align: center;
   display:none;
 }
 .hide2{
   display:none;
+  text-align: center;
 }
+
+.para1{
+  display: none;
+  text-align: center;
+/* margin-left: 10%; */
+}
+.para2{
+  display: none;
+  text-align: center;
+/* margin-left: 10%; */
+}
+
+
 .p1{
   /* float: left; */
   /* margin-right: 7vw; */
