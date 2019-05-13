@@ -7,13 +7,14 @@ body{
 }
 h3{
   text-align: center;
-  /* background-color: rgba(233, 252, 28, 0.4); */
+  background-color: rgba(233, 252, 28, 0.4);
 }
 .p1 .p2{
   display: flex;
   text-align: center;
   margin-bottom: 50px;
   border: 1px solid white;
+  color: orange;
 }
 .hide1{
   text-align: center;
@@ -27,27 +28,20 @@ h3{
 .para1{
   display: none;
   text-align: center;
-/* margin-left: 10%; */
 }
 .para2{
   display: none;
   text-align: center;
-/* margin-left: 10%; */
 }
 
 
 .p1{
-  /* float: left; */
-  /* margin-right: 7vw; */
-  /* background-color: rgba(233, 252, 28, 0.4); */
   margin-bottom: 50px;
   padding: 10px;
   margin-top:25px;
   border: 1px solid white;
 }
 .p2{
-  /* margin-left: 7vw; */
-  /* background-color: rgba(233, 252, 28, 0.4); */
   margin-bottom: 50px;
   padding: 10px;
   border: 1px solid white;
@@ -55,6 +49,7 @@ h3{
 .players{
   text-align: center;
   margin: 10%;
+  color: orange;
 }
 .col-md-6{
   border: 3px solid blue;

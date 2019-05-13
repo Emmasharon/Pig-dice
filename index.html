@@ -6,30 +6,49 @@
     <link rel="stylesheet" href="./css/styles.css">
     <!-- <link rel="stylesheet" href="css/animate(1).css"> -->
     <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-    <title></title>
+    <title>
+      PIG_DICE
+    </title>
   </head>
   <body>
      <div class="container">
-       <h3>LET'S PLAY PIG</h3>
+       <h3>
+         LET'S PLAY PIG
+       </h3>
      <div class="instructions">
-       <h6>INSTRUCTIONS</h6>
-      <p>This is a simple dice game where two players have the chance to roll the dice to try and achieve a score of 100.</p>
+       <h6>
+         INSTRUCTIONS
+       </h6>
+      <p>
+        This is a simple dice game where two players have the chance to roll the dice to try and achieve a score of 100.
+      </p>
       <ul>
-      <li>When the roll is a number between 2 - 6, the dice score is added to their turn total.</li>
-      <li>When the roll is 1, total score is zero</li>
-      <li>When you hold(pass your turn), the total is added to total score.</li>
-      <li>The player who first scores 100 wins.</li>
+      <li>
+        When the roll is a number between 2 - 6, the dice score is added to their turn total.
+      </li>
+      <li>
+        When the roll is 1, total score is zero
+      </li>
+      <li>
+        When you hold(pass your turn), the total is added to total score.
+      </li>
+      <li>
+        The player who first scores 100 wins.
+      </li>
       </ul>
      </div>
      <div class="players">
        <div class="row">
-
          <div class="col-md-6">
-           <h1>Player 1</h1>
+           <h1>
+             Player 1
+           </h1>
            <input required id="p1" type="text" name="name" value="" placeholder="Write your name">
          </div>
          <div class="col-md-6">
-           <h1>Player 2</h1>
+           <h1>
+             Player 2
+           </h1>
            <input required id="p2" type="text" name="name" value="" placeholder="Write your name">
          </div>
 
@@ -39,64 +58,108 @@
      <div class="dice">
       <div class="row">
       <div class="col-md-6" id="green">
-        <h3 id="moja">Player one:</h3>
-          <p id="first"></p>
+        <h3 id="moja">
+          Player one:
+        </h3>
+          <p id="first">
+          </p>
         <!-- <br> -->
           <div class="submit">
-            <button id="play1" type="submit" class="btn btn-outline-success" name="play">PLAY</button>
+            <button id="play1" type="submit" class="btn btn-outline-success" name="play">
+              PLAY
+            </button>
             <br>
             <br>
           </div>
           <div class="para1">
-          <p id="name1">Name:<span>??</span></p>
-          <p id="Roll1">Roll Number: <span>??</span></p>
-          <p id="count1">Cummulative Roll: <span>??</span></p>
-          <p id="total1">Total points:<span>??</span></p>
+          <p id="name1">
+            Name:
+            <span>??</span>
+          </p>
+          <p id="Roll1">
+            Roll Number:
+            <span>??</span>
+          </p>
+          <p id="count1">
+            Cummulative Roll:
+            <span>??</span>
+          </p>
+          <p id="total1">
+            Total points:
+            <span>??</span>
+          </p>
         </div>
         <div class="hide1">
-          <button class="roll1 btn">roll dice</button>
-          <button class="hold1 btn">hold</button>
+          <button class="roll1 btn">
+            roll dice
+          </button>
+          <button class="hold1 btn">
+            hold
+          </button>
         </div>
         </div>
 
-    <div class="col-md-6" id="blue">
-      <h3 id="mbili">Player two:</h3>
-       <p id="second"></p>
-       <!-- <p>rollDice:</p> -->
-       <div class="submit">
-         <button id="play2" type="submit" class="btn btn-outline-success" name="play">PLAY</button>
+        <div class="col-md-6" id="blue">
+          <h3 id="mbili">
+            Player two:
+          </h3>
+           <p id="second">
+           </p>
+           <!-- <p>rollDice:</p> -->
+           <div class="submit">
+             <button id="play2" type="submit" class="btn btn-outline-success" name="play">
+               PLAY
+             </button>
+           </div>
+           <br>
+           <br>
+           <div class="para2">
+             <p id="name2">
+               Name:
+               <span>??</span>
+             </p>
+             <p id="Roll2">
+               Roll Number:
+               <span>??</span>
+             </p>
+             <p id="count2">
+               Cummulative Roll:
+               <span>??</span>
+             </p>
+             <p id="total2">
+               Total points:
+               <span>??</span>
+             </p>
+         </div>
+         <div class="hide2">
+           <button class="roll2 btn">
+             roll dice
+           </button>
+           <button class="hold2 btn">
+             hold
+           </button>
+         </div>
+        </div>
+
+
+       <!-- <div class="winner">
+         <h1>YEEY!</h1>
+         <p id="win"> </p>
+         <p id="winn"></p>
+         <p>WINNER!!</p>
+       </div> -->
        </div>
-       <br>
-       <br>
-       <div class="para2">
-         <p id="name2">Name:<span>??</span></p>
-         <p id="Roll2">Roll Number: <span>??</span></p>
-         <p id="count2">Cummulative Roll: <span>??</span></p>
-         <p id="total2">Total points:<span>??</span></p>
-     </div>
-     <div class="hide2">
-       <button class="roll2 btn">roll dice</button>
-       <button class="hold2 btn">hold</button>
-     </div>
-    </div>
+       <button id="reset" type="button" class="btn btn-outline-info" onclick="location.reload()">
+         restart
+       </button>
 
+       <p class="copyright">CHEZA-PIG-DICE Copyright©2019</p>
 
-   <!-- <div class="winner">
-     <h1>YEEY!</h1>
-     <p id="win"> </p>
-     <p id="winn"></p>
-     <p>WINNER!!</p>
-   </div> -->
-   </div>
-   <button id="reset" type="button" class="btn btn-outline-info" onclick="location.reload()">restart</button>
+      </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
 
-   <p class="copyright">CHEZA-PIG-DICECopyright©2019</p>
+        </script>
 
- </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-
-    </script>
-
-  </body>
-</html>
+      </body>
+    </html>
